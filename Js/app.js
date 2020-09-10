@@ -85,11 +85,11 @@ $(document).ready(function(){
 								<option value="Telephone Bill">Telephone Bill</option>
 								<option value="Salary">Salary</option>
 								<option value="Grossary">Grossary</option>
-								<option value="Gas">Gas Booking</option>
-								<option value="Other">Others</option>
+								<option value="Gas Booking">Gas Booking</option>
+								<option value="Others">Others</option>
 						</select><br>
 						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        				<button type="submit" data-id="${taskId}" class="btn btn-primary update">Save changes</button>
+        				<button type="submit" data-id="${taskId}" class="btn btn-warning update">Save</button>
   				`);
   		});
 		$('#credittable').on('click','.display',function(){
@@ -114,8 +114,8 @@ $(document).ready(function(){
 								<option value="Telephone Bill">Telephone Bill</option>
 								<option value="Salary">Salary</option>
 								<option value="Grossary">Grossary</option>
-								<option value="Gas">Gas Booking</option>
-								<option value="Other">Others</option>
+								<option value="Gas Booking">Gas Booking</option>
+								<option value="Others">Others</option>
 						</select><br>
 						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
         				<button type="button" data-id="${taskId}" class="btn btn-warning update">Save</button>
